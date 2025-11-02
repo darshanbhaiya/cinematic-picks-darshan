@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movies I Loved — Darshan's Picks</title>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa6b2; --accent:#ff6b6b; --glass: rgba(255,255,255,0.04);
+      --maxw:1100px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#08101a 0%, #071219 100%);color:#e6eef6;display:flex;justify-content:center;padding:36px 18px}
+    .wrap{width:100%;max-width:var(--maxw)}
+
+    header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    .logo{width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#ffb86b);display:flex;align-items:center;justify-content:center;font-weight:700;color:#061018;font-size:20px}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:2px 0 0;color:var(--muted);font-size:13px}
+
+    .controls{display:flex;gap:12px;align-items:center;margin:18px 0}
+    .search{flex:1}
+    input[type=search]{width:100%;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:var(--card);color:inherit}
+    select, button{padding:10px 12px;border-radius:10px;border:none;background:var(--glass);color:inherit}
+    .taglist{display:flex;gap:8px;flex-wrap:wrap}
+    .tag{padding:6px 10px;border-radius:999px;background:transparent;border:1px solid rgba(255,255,255,0.04);cursor:pointer}
+    .tag.active{background:linear-gradient(90deg,var(--accent),#ffaa6b);color:#061018;border:none}
+
+    .ad{width:100%;height:90px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));display:flex;align-items:center;justify-content:center;color:var(--muted);margin:18px 0}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .poster{width:100%;height:300px;background:#071018;border-radius:8px;object-fit:cover}
+    .title{font-weight:700;margin:8px 0 4px}
+    .meta{font-size:13px;color:var(--muted);margin-bottom:8px}
+    .small{font-size:13px;color:var(--muted)}
+
+    .btn-row{display:flex;gap:8px}
+    .btn{flex:1;padding:8px;border-radius:8px;border:none;background:transparent;color:var(--muted);cursor:pointer}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),#ffaa6b);color:#061018;font-weight:700}
+
+    /* modal */
+    .modal{position:fixed;inset:0;background:rgba(2,6,12,0.6);display:none;align-items:center;justify-content:center;padding:20px}
+    .modal.open{display:flex}
+    .modal-card{width:100%;max-width:900px;background:#071019;border-radius:12px;padding:16px;border:1px solid rgba(255,255,255,0.03)}
+    .modal-grid{display:grid;grid-template-columns:260px 1fr;gap:12px}
+    .modal-poster{width:100%;height:380px;object-fit:cover;border-radius:8px}
+    .close{background:transparent;border:none;color:var(--muted);cursor:pointer}
+
+    footer{margin-top:20px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center}
+
+    @media (max-width:720px){.modal-grid{grid-template-columns:1fr} .modal-poster{height:240px}}
+
+    /* small helpers */
+    .rating{display:inline-block;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.03);font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">DB</div>
+      <div>
+        <h1>Darshan's Movie Picks</h1>
+        <p class="lead">A curated list of movie series I watched & loved — quick filters, details and ad slots ready for monetization.</p>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="search">
+        <input id="search" type="search" placeholder="Search movies, e.g. 'The Dark Knight'" />
+      </div>
+      <select id="sort">
+        <option value="popular">Sort: My order</option>
+        <option value="rating">Sort: Rating (desc)</option>
+        <option value="year">Sort: Year (desc)</option>
+      </select>
+      <div style="width:140px;display:flex;justify-content:flex-end">
+        <button id="addSample" class="btn">Add sample</button>
+      </div>
+    </section>
+
+    <div class="taglist" id="genres"></div>
+
+    <div class="ad" id="ad-top">Ad Space — replace with your AdSense / ad network snippet</div>
+
+    <main class="grid" id="grid"></main>
+
+    <div class="ad" id="ad-bottom">Ad Space — great for inline ads or affiliate banners</div>
+
+    <footer>
+      <div>Made with ❤️ — Add your movies in the JS array at the top of the script.</div>
+      <div class="small">Tip: Replace ad placeholders with your network code when ready.</div>
+    </footer>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <strong id="modal-title">Title</strong>
+        <button class="close" id="modal-close">Close ✕</button>
+      </div>
+      <div class="modal-grid" style="margin-top:12px">
+        <img id="modal-poster" class="modal-poster" src="" alt="poster">
+        <div>
+          <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px"><span id="modal-year" class="small"></span><span id="modal-rating" class="rating"></span></div>
+          <p id="modal-desc" style="color:var(--muted)"></p>
+          <p style="margin-top:10px"><strong>Why I liked it</strong></p>
+          <p id="modal-notes" style="color:var(--muted)"></p>
+
+          <div style="margin-top:14px" class="btn-row">
+            <a id="watch-link" class="btn primary" target="_blank" rel="noopener">Watch / Buy</a>
+            <button id="open-trailer" class="btn">Open Trailer</button>
+            <button id="toggle-fav" class="btn">Toggle Seen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ---------- EDIT THIS ARRAY to add your movie series ----------
+    const MOVIES = [
+      {
+        id: 'tdk',
+        title: 'The Dark Knight Trilogy',
+        year: 2008,
+        rating: 9.1,
+        genres: ['Action','Crime','Drama'],
+        poster: 'https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60',
+        trailer: 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
+        link: 'https://www.netflix.com',
+        notes: 'Grim, grounded take on Batman. Top-notch acting and Hans Zimmer score.'
+      },
+      {
+        id: 'hp',
+        title: 'Harry Potter Series',
+        year: 2011,
+        rating: 8.2,
+        genres: ['Fantasy','Adventure'],
+        poster: 'https://images.unsplash.com/photo-1542204165-1b0a0f9f5c6f?auto=format&fit=crop&w=600&q=60',
+        trailer: 'https://www.youtube.com/watch?v=VyHV0BRtdxo',
+        link: 'https://www.hbomax.com',
+        notes: 'A magical journey that grows with the characters. Great rewatch value.'
+      },
+      {
+        id: 'lotr',
+        title: 'The Lord of the Rings',
+        year: 2003,
+        rating: 9.0,
+        genres: ['Fantasy','Adventure','Epic'],
+        poster: 'https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=600&q=60',
+        trailer: 'https://www.youtube.com/watch?v=V75dMMIW2B4',
+        link: 'https://www.amazon.com/s?k=lord+of+the+rings',
+        notes: 'Epic scope, unforgettable worldbuilding and emotional payoff.'
+      }
+    ];
+    // ------------------------------------------------------------
+
+    // --- small helpers ---
+    const state = {selectedGenre: null, query: '', sort: 'popular'};
+
+    const genresEl = document.getElementById('genres');
+    const grid = document.getElementById('grid');
+    const search = document.getElementById('search');
+    const sort = document.getElementById('sort');
+    const addSample = document.getElementById('addSample');
+
+    // modal
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalPoster = document.getElementById('modal-poster');
+    const modalDesc = document.getElementById('modal-desc');
+    const modalNotes = document.getElementById('modal-notes');
+    const modalYear = document.getElementById('modal-year');
+    const modalRating = document.getElementById('modal-rating');
+    const watchLink = document.getElementById('watch-link');
+    const openTrailer = document.getElementById('open-trailer');
+    const toggleFav = document.getElementById('toggle-fav');
+    const modalClose = document.getElementById('modal-close');
+
+    // LocalStorage key for seen/favorites
+    const LS_KEY = 'darshan_seen';
+    const seen = new Set(JSON.parse(localStorage.getItem(LS_KEY) || '[]'));
+
+    function saveSeen(){
+      localStorage.setItem(LS_KEY, JSON.stringify(Array.from(seen)));
+    }
+
+    function uniqueGenres(){
+      const g = new Set();
+      MOVIES.forEach(m=>m.genres.forEach(x=>g.add(x)));
+      return Array.from(g).sort();
+    }
+
+    function renderGenres(){
+      const arr = uniqueGenres();
+      genresEl.innerHTML = '';
+      const all = document.createElement('button');
+      all.className = 'tag' + (state.selectedGenre===null ? ' active':'');
+      all.textContent = 'All';
+      all.onclick = ()=>{state.selectedGenre=null; render(); renderGenres();}
+      genresEl.appendChild(all);
+
+      arr.forEach(g=>{
+        const b = document.createElement('button');
+        b.className = 'tag' + (state.selectedGenre===g ? ' active':'');
+        b.textContent = g;
+        b.onclick = ()=>{state.selectedGenre = (state.selectedGenre===g?null:g); render(); renderGenres();};
+        genresEl.appendChild(b);
+      })
+    }
+
+    function filterMovies(){
+      let out = MOVIES.slice();
+      if(state.selectedGenre){
+        out = out.filter(m=>m.genres.includes(state.selectedGenre));
+      }
+      if(state.query){
+        const q = state.query.toLowerCase();
+        out = out.filter(m=>m.title.toLowerCase().includes(q) || (m.notes||'').toLowerCase().includes(q));
+      }
+      if(state.sort==='rating') out.sort((a,b)=>b.rating - a.rating);
+      if(state.sort==='year') out.sort((a,b)=>b.year - a.year);
+      // default: original order (which is "my order")
+      return out;
+    }
+
+    function render(){
+      const items = filterMovies();
+      grid.innerHTML = '';
+      if(items.length===0){ grid.innerHTML = '<div style="grid-column:1/-1;color:var(--muted);padding:40px;border-radius:8px;background:rgba(255,255,255,0.01);text-align:center">No movies found</div>'; return }
+
+      items.forEach(m=>{
+        const c = document.createElement('div'); c.className='card';
+        c.innerHTML = `
+          <img class="poster" src="${m.poster}" alt="${m.title} poster"/>
+          <div class="title">${m.title}</div>
+          <div class="meta">${m.genres.join(' • ')} <span style="float:right" class="small">${m.year}</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div class="small">${(m.rating||'-')} ⭐</div>
+            <div style="display:flex;gap:8px">
+              <button class="btn" data-id="${m.id}" data-action="open">Details</button>
+              <button class="btn ${seen.has(m.id)?'primary':''}" data-id="${m.id}" data-action="fav">${seen.has(m.id)?'Seen':'Mark Seen'}</button>
+            </div>
+          </div>
+        `;
+        grid.appendChild(c);
+      });
+    }
+
+    // event delegation for card buttons
+    grid.addEventListener('click', (e)=>{
+      const btn = e.target.closest('button'); if(!btn) return;
+      const id = btn.dataset.id; const action = btn.dataset.action;
+      const movie = MOVIES.find(x=>x.id===id); if(!movie) return;
+      if(action==='open') openModal(movie);
+      if(action==='fav'){
+        if(seen.has(id)) seen.delete(id); else seen.add(id);
+        saveSeen(); render();
+      }
+    });
+
+    function openModal(m){
+      modalTitle.textContent = m.title;
+      modalPoster.src = m.poster;
+      modalDesc.textContent = (m.genres||[]).join(' • ');
+      modalNotes.textContent = m.notes || '';
+      modalYear.textContent = m.year || '';
+      modalRating.textContent = typeof m.rating === 'number' ? m.rating : '-';
+      watchLink.href = m.link || '#';
+      openTrailer.onclick = ()=>{ if(m.trailer) window.open(m.trailer, '_blank'); };
+      toggleFav.onclick = ()=>{ if(seen.has(m.id)) seen.delete(m.id); else seen.add(m.id); saveSeen(); render(); };
+      modal.classList.add('open');
+    }
+
+    modalClose.addEventListener('click', ()=> modal.classList.remove('open'));
+    modal.addEventListener('click', (e)=>{ if(e.target===modal) modal.classList.remove('open'); })
+
+    // controls
+    search.addEventListener('input', (e)=>{ state.query = e.target.value; render(); });
+    sort.addEventListener('change', (e)=>{ state.sort = e.target.value; render(); });
+
+    addSample.addEventListener('click', ()=>{
+      const id = 'sample-' + Math.random().toString(36).slice(2,8);
+      MOVIES.push({id,title:'Sample Movie '+(MOVIES.length+1),year:2024,rating:7.3,genres:['Drama'],poster:'https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=600&q=60',trailer:'',link:'#',notes:'A sample entry added to the list.'});
+      render(); renderGenres();
+    });
+
+    // initial render
+    renderGenres(); render();
+
+    // Helpful notes in console for quick monetization steps
+    console.log('Movie picks loaded. To monetize: replace the ad placeholders (#ad-top and #ad-bottom) with your ad network snippet (e.g. AdSense).');
+  </script>
+</body>
+</html>

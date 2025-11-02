@@ -1,0 +1,3431 @@
+[
+  {
+    "id": "tdk",
+    "title": "The Dark Knight Trilogy",
+    "year": 2008,
+    "rating": 9.1,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "notes": "Grim, grounded take on Batman. Top-notch acting and Hans Zimmer score.",
+    "type": "movie"
+  },
+  {
+    "id": "hp",
+    "title": "Harry Potter Series",
+    "year": 2011,
+    "rating": 8.2,
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1542204165-1b0a0f9f5c6f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=VyHV0BRtdxo",
+    "notes": "A magical journey that grows with the characters. Great rewatch value.",
+    "type": "movie"
+  },
+  {
+    "id": "lotr",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "rating": 9.0,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Epic"
+    ],
+    "poster": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+    "notes": "Epic scope, unforgettable worldbuilding and emotional payoff.",
+    "type": "movie"
+  },
+  {
+    "id": "bb",
+    "title": "Breaking Bad",
+    "year": 2013,
+    "rating": 9.5,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit&crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
+    "notes": "Incredible acting, tight writing, and amazing twists.",
+    "type": "series"
+  },
+  {
+    "id": "got",
+    "title": "Game of Thrones",
+    "year": 2019,
+    "rating": 8.4,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
+    "notes": "Epic scale, complex characters, but divisive ending.",
+    "type": "series"
+  },
+  {
+    "id": "str",
+    "title": "Stranger Things",
+    "year": 2022,
+    "rating": 8.7,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
+    "notes": "Fun adventure, great nostalgia & lovable cast.",
+    "type": "series"
+  },
+  {
+    "id": "iw",
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "rating": 8.5,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+    "notes": "Massive crossover event with emotional weight and high stakes.",
+    "type": "movie"
+  },
+  {
+    "id": "eg",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "rating": 8.6,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    "notes": "Emotional conclusion to a decade-long saga.",
+    "type": "movie"
+  },
+  {
+    "id": "spn",
+    "title": "Supernatural",
+    "year": 2020,
+    "rating": 8.4,
+    "genres": [
+      "Horror",
+      "Fantasy",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=t-775JyzDTk",
+    "notes": "Two brothers hunt monsters and demons across America.",
+    "type": "series"
+  },
+  {
+    "id": "tb",
+    "title": "The Batman",
+    "year": 2022,
+    "rating": 8.3,
+    "genres": [
+      "Action",
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1611605698315-6a18ed1a5c7c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=mqqft2x_Aa4",
+    "notes": "Dark detective noir version of Batman. Stylish and moody.",
+    "type": "movie"
+  },
+  {
+    "id": "in",
+    "title": "Inception",
+    "year": 2010,
+    "rating": 8.8,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Thriller",
+      "Mind-Bending"
+    ],
+    "poster": "https://images.unsplash.com/photo-1499084732479-de2c02d45fc4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "notes": "Dreams within dreams. Nolan at his best.",
+    "type": "movie"
+  },
+  {
+    "id": "int",
+    "title": "Interstellar",
+    "year": 2014,
+    "rating": 8.6,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Adventure",
+      "Space",
+      "Emotional"
+    ],
+    "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "notes": "Emotionally charged sci-fi masterpiece about love, time, and humanity.",
+    "type": "movie"
+  },
+  {
+    "id": "bbt",
+    "title": "The Big Bang Theory",
+    "year": 2019,
+    "rating": 8.1,
+    "genres": [
+      "Comedy",
+      "Sitcom",
+      "Friendship"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=WBb3fojgW0Q",
+    "notes": "Geek humor and friendship with lovable characters.",
+    "type": "series"
+  },
+  {
+    "id": "wd",
+    "title": "The Walking Dead",
+    "year": 2022,
+    "rating": 8.2,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Action"
+    ],
+    "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=R1v0uFms68U",
+    "notes": "Survival story in a zombie apocalypse setting.",
+    "type": "series"
+  },
+  {
+    "id": "sher",
+    "title": "Sherlock (BBC)",
+    "year": 2017,
+    "rating": 9.1,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=xK7S9mrFWL4",
+    "notes": "Modern-day Sherlock Holmes with sharp writing and chemistry.",
+    "type": "series"
+  },
+  {
+    "id": "cm",
+    "title": "Chernobyl",
+    "year": 2019,
+    "rating": 9.4,
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=s9APLXM9Ei8",
+    "notes": "Terrifying true-story recreation with haunting visuals.",
+    "type": "series"
+  },
+  {
+    "id": "mf",
+    "title": "Money Heist (La Casa de Papel)",
+    "year": 2021,
+    "rating": 8.3,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Action"
+    ],
+    "poster": "https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=To_kVMMu-Ls",
+    "notes": "Spanish heist drama with emotional storytelling.",
+    "type": "series"
+  },
+  {
+    "id": "fh",
+    "title": "Fast & Furious: The Ultimate Ride Saga",
+    "year": 2021,
+    "rating": 6.8,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Racing",
+      "Family"
+    ],
+    "poster": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=FUK2kdPsBws",
+    "notes": "Fast cars, impossible stunts, and family-first vibes.",
+    "type": "movie"
+  },
+  {
+    "id": "dp",
+    "title": "Deadpool & Wolverine: Maximum Chaos Edition",
+    "year": 2024,
+    "rating": 8.5,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Superhero",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=73_1biulkYk",
+    "notes": "Wild, irreverent humor mixed with brutal action and meta jokes.",
+    "type": "movie"
+  },
+  {
+    "id": "titanic",
+    "title": "Titanic",
+    "year": 1997,
+    "rating": 7.9,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Historical",
+      "Tragedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kVrqfYjkTdQ",
+    "notes": "Epic love story aboard the ill-fated ship.",
+    "type": "movie"
+  },
+  {
+    "id": "ff",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "rating": 8.8,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+    "notes": "Life is like a box of chocolates.",
+    "type": "movie"
+  },
+  {
+    "id": "mcu",
+    "title": "Marvel Cinematic Universe Phase 1–4 Collection: The Infinity Saga",
+    "year": 2021,
+    "rating": 8.5,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Fantasy",
+      "Drama",
+      "Comedy",
+      "Heroic",
+      "Epic",
+      "Cinematic",
+      "Blockbuster"
+    ],
+    "poster": "https://images.unsplash.com/photo-1606112219348-204d7d8b94ee?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=tcQd6sR1zFg",
+    "notes": "A 20+ movie universe that redefined blockbuster storytelling.",
+    "type": "movie"
+  },
+  {
+    "id": "shaw",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "rating": 9.3,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1619864205517-567a113f309a?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+    "notes": "Hope in the face of despair. A timeless classic.",
+    "type": "movie"
+  },
+  {
+    "id": "pfic",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "rating": 8.9,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627448833118-2e5f39691b0c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=s71LwE_bQ_8",
+    "notes": "Tarantino's non-linear masterpiece. Iconic dialogue.",
+    "type": "movie"
+  },
+  {
+    "id": "gfather",
+    "title": "The Godfather",
+    "year": 1972,
+    "rating": 9.2,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1614298191992-a1622345e691?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sY1S34973z8",
+    "notes": "A definitive epic of the American mafia.",
+    "type": "movie"
+  },
+  {
+    "id": "matrix",
+    "title": "The Matrix",
+    "year": 1999,
+    "rating": 8.7,
+    "genres": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+    "notes": "Groundbreaking visual effects and philosophical themes.",
+    "type": "movie"
+  },
+  {
+    "id": "fightc",
+    "title": "Fight Club",
+    "year": 1999,
+    "rating": 8.8,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1594908906591-b3b425b035f8?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=qtRKdVHc-gw",
+    "notes": "Anarchic, satirical, and mind-bending.",
+    "type": "movie"
+  },
+  {
+    "id": "goodf",
+    "title": "Goodfellas",
+    "year": 1990,
+    "rating": 8.7,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1612743519808-16474149021e?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=qo5NF_j2_b0",
+    "notes": "Scorsese's kinetic and stylish mob epic.",
+    "type": "movie"
+  },
+  {
+    "id": "seinf",
+    "title": "Seinfeld",
+    "year": 1998,
+    "rating": 8.9,
+    "genres": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "poster": "https://images.unsplash.com/photo-1599818817730-a29285098b69?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ow4tI6t0yWw",
+    "notes": "The show about nothing.",
+    "type": "series"
+  },
+  {
+    "id": "friends",
+    "title": "Friends",
+    "year": 2004,
+    "rating": 8.5,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1582236357304-c36b6f00222f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hExu1tC-P0I",
+    "notes": "Six friends navigating life in New York City.",
+    "type": "series"
+  },
+  {
+    "id": "office",
+    "title": "The Office (US)",
+    "year": 2013,
+    "rating": 9.0,
+    "genres": [
+      "Comedy",
+      "Mockumentary"
+    ],
+    "poster": "https://images.unsplash.com/photo-1546410531-4e7822d561a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=yW6M4c56eT8",
+    "notes": "Hilarity in a mundane paper company.",
+    "type": "series"
+  },
+  {
+    "id": "dune2",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "rating": 8.8,
+    "genres": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1612784534888-82b54203e33f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "notes": "Stunning visuals and epic scale in the desert world of Arrakis.",
+    "type": "movie"
+  },
+  {
+    "id": "avatar",
+    "title": "Avatar",
+    "year": 2009,
+    "rating": 7.9,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1628178652481-8b2b73f8a0a9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=5PSNL1D6K-E",
+    "notes": "Revolutionary CGI and world-building on Pandora.",
+    "type": "movie"
+  },
+  {
+    "id": "queen",
+    "title": "The Queen's Gambit",
+    "year": 2020,
+    "rating": 8.5,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1563729784347-19036c2f30b2?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=oZkL-r2F29s",
+    "notes": "A captivating limited series about a chess prodigy.",
+    "type": "series"
+  },
+  {
+    "id": "succ",
+    "title": "Succession",
+    "year": 2023,
+    "rating": 8.8,
+    "genres": [
+      "Drama",
+      "Black Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=OzYl9F6r3cI",
+    "notes": "Brilliantly written drama about a dysfunctional media family.",
+    "type": "series"
+  },
+  {
+    "id": "ted",
+    "title": "Ted Lasso",
+    "year": 2023,
+    "rating": 8.8,
+    "genres": [
+      "Comedy",
+      "Sport",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1598818809467-332e185e783c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=3u7E5c80T_Q",
+    "notes": "Heartwarming and relentlessly optimistic.",
+    "type": "series"
+  },
+  {
+    "id": "mad",
+    "title": "Mad Men",
+    "year": 2015,
+    "rating": 8.7,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559827291-72ee739d07e2?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=x0cO-UjJ36Y",
+    "notes": "Sharp look at 1960s advertising and cultural shifts.",
+    "type": "series"
+  },
+  {
+    "id": "brmir",
+    "title": "Black Mirror",
+    "year": 2023,
+    "rating": 8.8,
+    "genres": [
+      "Sci-Fi",
+      "Anthology"
+    ],
+    "poster": "https://images.unsplash.com/photo-1549429182-4f01413d9876?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=jWJ81h_t8tY",
+    "notes": "A chilling exploration of modern society and technology.",
+    "type": "series"
+  },
+  {
+    "id": "mando",
+    "title": "The Mandalorian",
+    "year": 2023,
+    "rating": 8.7,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1511213459141-94e80a06806e?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
+    "notes": "A gritty space western set in the Star Wars universe.",
+    "type": "series"
+  },
+  {
+    "id": "sqgame",
+    "title": "Squid Game",
+    "year": 2021,
+    "rating": 8.0,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1633519102450-ccb518884d4b?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=oqxAJKy0ii4",
+    "notes": "A dark social commentary disguised as a survival game.",
+    "type": "series"
+  },
+  {
+    "id": "para",
+    "title": "Parasite",
+    "year": 2019,
+    "rating": 8.5,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Black Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1599304386708-31627d3122c6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=5xHwT6S3c08",
+    "notes": "A masterful, Oscar-winning examination of class conflict.",
+    "type": "movie"
+  },
+  {
+    "id": "spiaw",
+    "title": "Spirited Away",
+    "year": 2001,
+    "rating": 8.6,
+    "genres": [
+      "Animation",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1594908906591-b3b425b035f8?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+    "notes": "Miyazaki's classic tale of a girl in a magical spirit world.",
+    "type": "movie"
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7d_jQyzt-S0",
+    "notes": "Intense drama about a ruthless music instructor and his student.",
+    "type": "movie"
+  },
+  {
+    "id": "lalaland",
+    "title": "La La Land",
+    "year": 2016,
+    "rating": 7.9,
+    "genres": [
+      "Musical",
+      "Drama",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=je0e7G_y6j0",
+    "notes": "A modern musical tribute to the Golden Age of Hollywood.",
+    "type": "movie"
+  },
+  {
+    "id": "bohemian",
+    "title": "Bohemian Rhapsody",
+    "year": 2018,
+    "rating": 7.9,
+    "genres": [
+      "Biography",
+      "Music",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1598282361665-27a14e9f906f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=mP0VHJYFOXY",
+    "notes": "A celebration of Queen, their music, and their extraordinary lead singer Freddie Mercury.",
+    "type": "movie"
+  },
+  {
+    "id": "silence",
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "rating": 8.6,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=W6Mm8SChZHE",
+    "notes": "A chilling classic of suspense and psychological horror.",
+    "type": "movie"
+  },
+  {
+    "id": "seven",
+    "title": "Se7en",
+    "year": 1995,
+    "rating": 8.6,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=znmZoYRLhac",
+    "notes": "A dark and disturbing thriller about the Seven Deadly Sins.",
+    "type": "movie"
+  },
+  {
+    "id": "joker",
+    "title": "Joker",
+    "year": 2019,
+    "rating": 8.4,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=z0S-4-7q5vA",
+    "notes": "A powerful character study and origin story.",
+    "type": "movie"
+  },
+  {
+    "id": "gladiator",
+    "title": "Gladiator",
+    "year": 2000,
+    "rating": 8.5,
+    "genres": [
+      "Action",
+      "Drama",
+      "Historical"
+    ],
+    "poster": "https://images.unsplash.com/photo-1563729784347-19036c2f30b2?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=owK1qxDselE",
+    "notes": "A classic sword-and-sandal epic.",
+    "type": "movie"
+  },
+  {
+    "id": "avengers",
+    "title": "The Avengers",
+    "year": 2012,
+    "rating": 8.0,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1563729784347-19036c2f30b2?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=eOrNPO4-mYc",
+    "notes": "The first great superhero team-up movie.",
+    "type": "movie"
+  },
+  {
+    "id": "coco",
+    "title": "Coco",
+    "year": 2017,
+    "rating": 8.4,
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1619864205517-567a113f309a?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ga6KjYFk9gA",
+    "notes": "A vibrant and moving celebration of family and culture.",
+    "type": "movie"
+  },
+  {
+    "id": "up",
+    "title": "Up",
+    "year": 2009,
+    "rating": 8.3,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1599304386708-31627d3122c6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=pkqzNMhXw9A",
+    "notes": "A heartwarming tale of adventure and unexpected friendship.",
+    "type": "movie"
+  },
+  {
+    "id": "walle",
+    "title": "WALL-E",
+    "year": 2008,
+    "rating": 8.4,
+    "genres": [
+      "Animation",
+      "Sci-Fi",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=alL7E0-74S4",
+    "notes": "A beautiful, largely silent story about a small robot and a dystopian future.",
+    "type": "movie"
+  },
+  {
+    "id": "arcane",
+    "title": "Arcane: League of Legends",
+    "year": 2021,
+    "rating": 9.0,
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1619864205517-567a113f309a?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=fXmjH2p4v_o",
+    "notes": "Stunning animation and emotionally compelling storytelling.",
+    "type": "series"
+  },
+  {
+    "id": "atk",
+    "title": "Attack on Titan",
+    "year": 2023,
+    "rating": 9.1,
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1588661706689-53e77f0c1f6d?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=MGRm4IzG1SE",
+    "notes": "A dark, intense epic with high stakes and political intrigue.",
+    "type": "series"
+  },
+  {
+    "id": "oats",
+    "title": "Our Planet II",
+    "year": 2023,
+    "rating": 9.2,
+    "genres": [
+      "Documentary",
+      "Nature"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Jg2x02v-rM4",
+    "notes": "Breathtaking cinematography of the natural world.",
+    "type": "series"
+  },
+  {
+    "id": "jaws",
+    "title": "Jaws",
+    "year": 1975,
+    "rating": 8.0,
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1594908906591-b3b425b035f8?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=U1fu_sA7XhE",
+    "notes": "Spielberg's classic suspense thriller about a great white shark.",
+    "type": "movie"
+  },
+  {
+    "id": "exorcist",
+    "title": "The Exorcist",
+    "year": 1973,
+    "rating": 8.1,
+    "genres": [
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Q-gV5E5uDWA",
+    "notes": "The most terrifying film ever made, a horror landmark.",
+    "type": "movie"
+  },
+  {
+    "id": "alien",
+    "title": "Alien",
+    "year": 1979,
+    "rating": 8.4,
+    "genres": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=svnAD0lumC4",
+    "notes": "A masterclass in suspense and creature design.",
+    "type": "movie"
+  },
+  {
+    "id": "pnotes",
+    "title": "Prisoners",
+    "year": 2013,
+    "rating": 8.1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=bp4n1dKS-gY",
+    "notes": "A dark, intense mystery with moral ambiguity.",
+    "type": "movie"
+  },
+  {
+    "id": "gonedoll",
+    "title": "Gone Girl",
+    "year": 2014,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1563729784347-19036c2f30b2?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2-_-1nJf8Vg",
+    "notes": "A chilling and twisty tale of a marriage gone wrong.",
+    "type": "movie"
+  },
+  {
+    "id": "sicario",
+    "title": "Sicario",
+    "year": 2015,
+    "rating": 7.6,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sR0SDT2tdeg",
+    "notes": "A tense and morally complex drug war thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "taxi",
+    "title": "Taxi Driver",
+    "year": 1976,
+    "rating": 8.2,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=s-sL2R9jQGk",
+    "notes": "A dark and unsettling character study of a Vietnam veteran.",
+    "type": "movie"
+  },
+  {
+    "id": "casab",
+    "title": "Casablanca",
+    "year": 1942,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=BkL9E3yT4ho",
+    "notes": "One of the greatest classic films ever made.",
+    "type": "movie"
+  },
+  {
+    "id": "psycho",
+    "title": "Psycho",
+    "year": 1960,
+    "rating": 8.5,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=0h5c_Q_qKcc",
+    "notes": "Hitchcock's groundbreaking, terrifying suspense film.",
+    "type": "movie"
+  },
+  {
+    "id": "godfather2",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "rating": 9.0,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1614298191992-a1622345e691?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=9O1Iy9R0Z8k",
+    "notes": "Often considered one of the best sequels in cinematic history.",
+    "type": "movie"
+  },
+  {
+    "id": "hitch",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "year": 2005,
+    "rating": 6.8,
+    "genres": [
+      "Sci-Fi",
+      "Comedy",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=HPFf2X8wL7c",
+    "notes": "Mostly harmless.",
+    "type": "movie"
+  },
+  {
+    "id": "guardians",
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "rating": 8.0,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=d96zCq5N7fE",
+    "notes": "A space opera with a fantastic soundtrack and great humor.",
+    "type": "movie"
+  },
+  {
+    "id": "prestige",
+    "title": "The Prestige",
+    "year": 2006,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1499084732479-de2c02d45fc4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ijXruGEQNqg",
+    "notes": "A dark, complex tale of rivalry and obsession between two magicians.",
+    "type": "movie"
+  },
+  {
+    "id": "socnet",
+    "title": "The Social Network",
+    "year": 2010,
+    "rating": 7.8,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1499084732479-de2c02d45fc4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=lB95KLmpzEE",
+    "notes": "A look at the controversial founding of Facebook.",
+    "type": "movie"
+  },
+  {
+    "id": "sopranos",
+    "title": "The Sopranos",
+    "year": 2007,
+    "rating": 9.2,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1612743519808-16474149021e?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=WRp2L46r7a8",
+    "notes": "The series that redefined television drama.",
+    "type": "series"
+  },
+  {
+    "id": "wire",
+    "title": "The Wire",
+    "year": 2008,
+    "rating": 9.3,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=AvhT-sM-K3c",
+    "notes": "A comprehensive, realistic look at the drug trade in Baltimore.",
+    "type": "series"
+  },
+  {
+    "id": "ozark",
+    "title": "Ozark",
+    "year": 2022,
+    "rating": 8.5,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=0h65XjC6C4c",
+    "notes": "A financial advisor launders money for a drug cartel.",
+    "type": "series"
+  },
+  {
+    "id": "fargo",
+    "title": "Fargo (Series)",
+    "year": 2024,
+    "rating": 8.9,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Anthology"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=g9bj22_j3yM",
+    "notes": "Darkly comedic crime anthology series.",
+    "type": "series"
+  },
+  {
+    "id": "dark",
+    "title": "Dark",
+    "year": 2020,
+    "rating": 8.7,
+    "genres": [
+      "Sci-Fi",
+      "Thriller",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1549429182-4f01413d9876?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=cq2iTHMyd0M",
+    "notes": "A complex, mind-bending German time-travel drama.",
+    "type": "series"
+  },
+  {
+    "id": "vstranger",
+    "title": "V for Vendetta",
+    "year": 2006,
+    "rating": 8.2,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=lSA-T7-r7dY",
+    "notes": "A political thriller set in a dystopian future Britain.",
+    "type": "movie"
+  },
+  {
+    "id": "amadeus",
+    "title": "Amadeus",
+    "year": 1984,
+    "rating": 8.3,
+    "genres": [
+      "Biography",
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=d_xQJg5e_8s",
+    "notes": "A stunning portrait of the life of Wolfgang Amadeus Mozart.",
+    "type": "movie"
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7d_jQyzt-S0",
+    "notes": "Intense drama about a ruthless music instructor and his student.",
+    "type": "movie"
+  },
+  {
+    "id": "fullmetal",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2010,
+    "rating": 9.1,
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1588661706689-53e77f0c1f6d?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=B_F3uBw_D48",
+    "notes": "One of the best-regarded anime series of all time.",
+    "type": "series"
+  },
+  {
+    "id": "narcos",
+    "title": "Narcos",
+    "year": 2017,
+    "rating": 8.8,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=xl8zdP_h-kY",
+    "notes": "The story of Pablo Escobar and the rise of the cocaine trade.",
+    "type": "series"
+  },
+  {
+    "id": "bandofbros",
+    "title": "Band of Brothers",
+    "year": 2001,
+    "rating": 9.4,
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
+    "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hB9i2E6t7nQ",
+    "notes": "The definitive miniseries on WWII's Easy Company.",
+    "type": "series"
+  },
+  {
+    "id": "crown",
+    "title": "The Crown",
+    "year": 2023,
+    "rating": 8.2,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=JWtnJjn6HrM",
+    "notes": "A look at the reign of Queen Elizabeth II.",
+    "type": "series"
+  },
+  {
+    "id": "peaky",
+    "title": "Peaky Blinders",
+    "year": 2022,
+    "rating": 8.8,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=oVzVdvGIC7U",
+    "notes": "A crime family saga set in post-WWI Birmingham.",
+    "type": "series"
+  },
+  {
+    "id": "lost",
+    "title": "Lost",
+    "year": 2010,
+    "rating": 8.3,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=MhYcE2F3hHw",
+    "notes": "Survivors of a plane crash are stranded on a mysterious island.",
+    "type": "series"
+  },
+  {
+    "id": "drwho",
+    "title": "Doctor Who (2005 Revival)",
+    "year": 2024,
+    "rating": 8.6,
+    "genres": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Fq4jA06L1Xk",
+    "notes": "The iconic British time-travel show is back and better than ever.",
+    "type": "series"
+  },
+  {
+    "id": "hitchers",
+    "title": "Hitchhiker's Guide to the Galaxy (Series)",
+    "year": 1981,
+    "rating": 8.2,
+    "genres": [
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=cI9zT-3Q9J0",
+    "notes": "The original BBC adaptation of the popular radio series.",
+    "type": "series"
+  },
+  {
+    "id": "lostark",
+    "title": "Raiders of the Lost Ark",
+    "year": 1981,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Xh3A14gXJ8c",
+    "notes": "The quintessential adventure movie with Dr. Indiana Jones.",
+    "type": "movie"
+  },
+  {
+    "id": "jurassic",
+    "title": "Jurassic Park",
+    "year": 1993,
+    "rating": 8.2,
+    "genres": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=QWB2_lB2q3E",
+    "notes": "Life finds a way. Groundbreaking special effects.",
+    "type": "movie"
+  },
+  {
+    "id": "et",
+    "title": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "rating": 7.8,
+    "genres": [
+      "Sci-Fi",
+      "Family"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=qYAETtIIClk",
+    "notes": "A classic story of friendship between a boy and an alien.",
+    "type": "movie"
+  },
+  {
+    "id": "bladerunner",
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "rating": 8.0,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+    "notes": "Visually stunning and thought-provoking sequel.",
+    "type": "movie"
+  },
+  {
+    "id": "arrival",
+    "title": "Arrival",
+    "year": 2016,
+    "rating": 7.9,
+    "genres": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7W8F0eN62lY",
+    "notes": "A compelling film about language, communication, and time.",
+    "type": "movie"
+  },
+  {
+    "id": "spotlight",
+    "title": "Spotlight",
+    "year": 2015,
+    "rating": 8.1,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "poster": "https://images.unsplash.com/photo-1611605698315-6a18ed1a5c7c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=EwdCIpb5-2E",
+    "notes": "A powerful procedural drama about investigative journalism.",
+    "type": "movie"
+  },
+  {
+    "id": "schindlers",
+    "title": "Schindler's List",
+    "year": 1993,
+    "rating": 8.9,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=jO1vhrYgJ-o",
+    "notes": "A harrowing and essential depiction of the Holocaust.",
+    "type": "movie"
+  },
+  {
+    "id": "greenmile",
+    "title": "The Green Mile",
+    "year": 1999,
+    "rating": 8.6,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ki4ZE9e3uY4",
+    "notes": "An emotionally powerful supernatural prison drama.",
+    "type": "movie"
+  },
+  {
+    "id": "pirates",
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": 2003,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1594908906591-b3b425b035f8?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=na-sB3-m9_0",
+    "notes": "A swashbuckling adventure with an iconic performance by Johnny Depp.",
+    "type": "movie"
+  },
+  {
+    "id": "findingnemo",
+    "title": "Finding Nemo",
+    "year": 2003,
+    "rating": 8.2,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1619864205517-567a113f309a?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2zLkasSgHTo",
+    "notes": "Pixar's beloved underwater journey of a father searching for his son.",
+    "type": "movie"
+  },
+  {
+    "id": "toys",
+    "title": "Toy Story 3",
+    "year": 2010,
+    "rating": 8.3,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1619864205517-567a113f309a?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=JcpWXaA2qeg",
+    "notes": "A poignant and funny conclusion to a classic trilogy.",
+    "type": "movie"
+  },
+  {
+    "id": "wolfofws",
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "rating": 8.2,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=iszwuX1AK6A",
+    "notes": "Scorsese's wild, satirical look at financial excess.",
+    "type": "movie"
+  },
+  {
+    "id": "django",
+    "title": "Django Unchained",
+    "year": 2012,
+    "rating": 8.4,
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=eB1p19777-k",
+    "notes": "Tarantino's violent and witty Western with a powerful performance.",
+    "type": "movie"
+  },
+  {
+    "id": "revenant",
+    "title": "The Revenant",
+    "year": 2015,
+    "rating": 8.0,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=LoebZZ8K5N0",
+    "notes": "A stunning, brutal survival and revenge epic.",
+    "type": "movie"
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7d_jQyzt-S0",
+    "notes": "Intense drama about a ruthless music instructor and his student.",
+    "type": "movie"
+  },
+  {
+    "id": "grandb",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "rating": 8.1,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1614298191992-a1622345e691?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=K3t_s1bYn8M",
+    "notes": "Wes Anderson's stylish and eccentric caper.",
+    "type": "movie"
+  },
+  {
+    "id": "her",
+    "title": "Her",
+    "year": 2013,
+    "rating": 8.0,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=WzV6mXIOV74",
+    "notes": "A tender and complex film about a man who falls in love with an operating system.",
+    "type": "movie"
+  },
+  {
+    "id": "panslab",
+    "title": "Pan's Labyrinth",
+    "year": 2006,
+    "rating": 8.2,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=EQ5Vl7l861Y",
+    "notes": "A dark, magical, and unforgettable fantasy set against the backdrop of the Spanish Civil War.",
+    "type": "movie"
+  },
+  {
+    "id": "drive",
+    "title": "Drive",
+    "year": 2011,
+    "rating": 7.8,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1611605698315-6a18ed1a5c7c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=KFMdJ-X_kg8",
+    "notes": "A stylish, moody, and violent neo-noir with an amazing soundtrack.",
+    "type": "movie"
+  },
+  {
+    "id": "silvers",
+    "title": "Silver Linings Playbook",
+    "year": 2012,
+    "rating": 7.7,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=OhC953uN4rI",
+    "notes": "A unique, energetic romantic comedy-drama.",
+    "type": "movie"
+  },
+  {
+    "id": "room",
+    "title": "Room",
+    "year": 2015,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=E_Ci-pQzEEY",
+    "notes": "A deeply moving and powerful story of a mother and son held captive.",
+    "type": "movie"
+  },
+  {
+    "id": "moonlight",
+    "title": "Moonlight",
+    "year": 2016,
+    "rating": 7.4,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=9NJj12tJzqc",
+    "notes": "A beautiful, lyrical film about one man's journey of self-discovery.",
+    "type": "movie"
+  },
+  {
+    "id": "aotl",
+    "title": "Avatar: The Last Airbender",
+    "year": 2008,
+    "rating": 9.3,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1588661706689-53e77f0c1f6d?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=FjI5jY6X-cM",
+    "notes": "A brilliant animated series with incredible world-building and character development.",
+    "type": "series"
+  },
+  {
+    "id": "community",
+    "title": "Community",
+    "year": 2015,
+    "rating": 8.5,
+    "genres": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=E-w4yB5L86c",
+    "notes": "A meta-humorous cult classic with a loyal following.",
+    "type": "series"
+  },
+  {
+    "id": "parks",
+    "title": "Parks and Recreation",
+    "year": 2015,
+    "rating": 8.6,
+    "genres": [
+      "Comedy",
+      "Sitcom",
+      "Mockumentary"
+    ],
+    "poster": "https://images.unsplash.com/photo-1546410531-4e7822d561a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=s4fE9J9m_c0",
+    "notes": "A heartwarming comedy about optimistic public servants.",
+    "type": "series"
+  },
+  {
+    "id": "dexter",
+    "title": "Dexter",
+    "year": 2013,
+    "rating": 8.2,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=YQeUmSD1HdE",
+    "notes": "A forensic analyst who is also a serial killer of other murderers.",
+    "type": "series"
+  },
+  {
+    "id": "hannibal",
+    "title": "Hannibal",
+    "year": 2015,
+    "rating": 8.5,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Q74V0VfC620",
+    "notes": "Visually arresting and darkly artistic prequel to 'Red Dragon'.",
+    "type": "series"
+  },
+  {
+    "id": "westworld",
+    "title": "Westworld",
+    "year": 2022,
+    "rating": 8.5,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=J6H9Pq8Y-g0",
+    "notes": "A complex exploration of consciousness and free will.",
+    "type": "series"
+  },
+  {
+    "id": "houseofc",
+    "title": "House of Cards",
+    "year": 2018,
+    "rating": 8.7,
+    "genres": [
+      "Drama",
+      "Political"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=r_v2iJ5x5vI",
+    "notes": "A ruthless politician's climb to power.",
+    "type": "series"
+  },
+  {
+    "id": "true",
+    "title": "True Detective (Season 1)",
+    "year": 2014,
+    "rating": 8.9,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ZHwOZh_Fm7Y",
+    "notes": "A dark, philosophical, and critically acclaimed first season.",
+    "type": "series"
+  },
+  {
+    "id": "punisher",
+    "title": "The Punisher",
+    "year": 2019,
+    "rating": 8.5,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=jrLhP5sCPzI",
+    "notes": "A violent, emotional journey for Frank Castle.",
+    "type": "series"
+  },
+  {
+    "id": "daredevil",
+    "title": "Daredevil",
+    "year": 2018,
+    "rating": 8.6,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=k-a7NDUo1Hw",
+    "notes": "A dark, gritty, and excellently choreographed superhero series.",
+    "type": "series"
+  },
+  {
+    "id": "atlanta",
+    "title": "Atlanta",
+    "year": 2022,
+    "rating": 8.6,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=0y0Y7J8L8-E",
+    "notes": "Donald Glover's surreal, critically-acclaimed comedy-drama.",
+    "type": "series"
+  },
+  {
+    "id": "fleabag",
+    "title": "Fleabag",
+    "year": 2019,
+    "rating": 8.7,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Fh5uhto8E_0",
+    "notes": "Witty, fourth-wall breaking, and deeply emotional.",
+    "type": "series"
+  },
+  {
+    "id": "mrrobot",
+    "title": "Mr. Robot",
+    "year": 2019,
+    "rating": 8.6,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=U94litUpZ-o",
+    "notes": "A dark, complex series about a hacker who joins an anarchist group.",
+    "type": "series"
+  },
+  {
+    "id": "patriot",
+    "title": "The Patriot",
+    "year": 2000,
+    "rating": 7.2,
+    "genres": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uK7YmB45y64",
+    "notes": "Mel Gibson's epic American Revolutionary War story.",
+    "type": "movie"
+  },
+  {
+    "id": "kingsman",
+    "title": "Kingsman: The Secret Service",
+    "year": 2014,
+    "rating": 7.7,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kl8F-8rERtI",
+    "notes": "A stylish, over-the-top spy action comedy.",
+    "type": "movie"
+  },
+  {
+    "id": "oldboy",
+    "title": "Oldboy",
+    "year": 2003,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2Htg3C_n-kY",
+    "notes": "A brutally unforgettable South Korean revenge thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "train",
+    "title": "Train to Busan",
+    "year": 2016,
+    "rating": 7.6,
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=pyG5n4qM-mY",
+    "notes": "A high-octane South Korean zombie outbreak film on a train.",
+    "type": "movie"
+  },
+  {
+    "id": "madmax",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hEJnMDfC-0w",
+    "notes": "A relentless, breathtaking post-apocalyptic action spectacle.",
+    "type": "movie"
+  },
+  {
+    "id": "edge",
+    "title": "Edge of Tomorrow",
+    "year": 2014,
+    "rating": 7.9,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=vw61gCe2oqI",
+    "notes": "A smart and exciting sci-fi action film with a time-loop premise.",
+    "type": "movie"
+  },
+  {
+    "id": "goneb",
+    "title": "Gone Baby Gone",
+    "year": 2007,
+    "rating": 7.6,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=F0S2y2f6fI4",
+    "notes": "A grim, morally challenging detective story set in Boston.",
+    "type": "movie"
+  },
+  {
+    "id": "nightcrawler",
+    "title": "Nightcrawler",
+    "year": 2014,
+    "rating": 7.9,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=gJ0Ew6p_FPs",
+    "notes": "A sharp, chilling satire on sensationalist journalism.",
+    "type": "movie"
+  },
+  {
+    "id": "donnie",
+    "title": "Donnie Darko",
+    "year": 2001,
+    "rating": 8.0,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=bzFvjK5E7O4",
+    "notes": "A cult sci-fi classic with a complex narrative.",
+    "type": "movie"
+  },
+  {
+    "id": "shining",
+    "title": "The Shining",
+    "year": 1980,
+    "rating": 8.4,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=5Cb3dP5-Bq0",
+    "notes": "Stanley Kubrick's psychological horror masterpiece.",
+    "type": "movie"
+  },
+  {
+    "id": "rocky",
+    "title": "Rocky",
+    "year": 1976,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Sport"
+    ],
+    "poster": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=I_Jv0-4rP4k",
+    "notes": "The ultimate underdog story.",
+    "type": "movie"
+  },
+  {
+    "id": "apocalypse",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ikvdc0z8X50",
+    "notes": "A psychedelic and harrowing journey into the heart of darkness.",
+    "type": "movie"
+  },
+  {
+    "id": "amelie",
+    "title": "Amélie",
+    "year": 2001,
+    "rating": 8.3,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=HUECWi5pX7o",
+    "notes": "A whimsical, charming French film.",
+    "type": "movie"
+  },
+  {
+    "id": "montypython",
+    "title": "Monty Python and the Holy Grail",
+    "year": 1975,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=LG1PlkM0v8k",
+    "notes": "A hilarious and anarchic take on the Arthurian legend.",
+    "type": "movie"
+  },
+  {
+    "id": "hotfuzz",
+    "title": "Hot Fuzz",
+    "year": 2007,
+    "rating": 7.8,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ayG0_1wH94o",
+    "notes": "A fast-paced, witty action-comedy from Edgar Wright.",
+    "type": "movie"
+  },
+  {
+    "id": "zodiac",
+    "title": "Zodiac",
+    "year": 2007,
+    "rating": 7.7,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=yNChbE9W1sY",
+    "notes": "A detailed, atmospheric thriller about the search for the Zodiac Killer.",
+    "type": "movie"
+  },
+  {
+    "id": "brooklyn",
+    "title": "Brooklyn Nine-Nine",
+    "year": 2021,
+    "rating": 8.4,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sEOuJ4Nxw5M",
+    "notes": "A cheerful and heartwarming workplace sitcom set in a police precinct.",
+    "type": "series"
+  },
+  {
+    "id": "goodplace",
+    "title": "The Good Place",
+    "year": 2020,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Philosophy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Mf5oRkK4q0I",
+    "notes": "A smart, funny, and surprisingly profound show about what it means to be good.",
+    "type": "series"
+  },
+  {
+    "id": "lastofus",
+    "title": "The Last of Us",
+    "year": 2023,
+    "rating": 8.8,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uGr-L5g0oQo",
+    "notes": "A highly-rated post-apocalyptic drama based on the video game.",
+    "type": "series"
+  },
+  {
+    "id": "throne",
+    "title": "House of the Dragon",
+    "year": 2024,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Dot_K_v6Q4c",
+    "notes": "A captivating prequel to Game of Thrones, focusing on the Targaryens.",
+    "type": "series"
+  },
+  {
+    "id": "white",
+    "title": "The White Lotus",
+    "year": 2024,
+    "rating": 8.0,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kY0yF6t8d5o",
+    "notes": "A sharp social satire set at a luxury resort.",
+    "type": "series"
+  },
+  {
+    "id": "giri",
+    "title": "Giri / Haji",
+    "year": 2019,
+    "rating": 8.1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=l_tH3M88b48",
+    "notes": "A stylish, bilingual thriller about a Tokyo detective in London.",
+    "type": "series"
+  },
+  {
+    "id": "mrsmaisel",
+    "title": "The Marvelous Mrs. Maisel",
+    "year": 2023,
+    "rating": 8.7,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=fOmwkTrW4OQ",
+    "notes": "A fast-talking, vibrant show about a 1950s housewife turned stand-up comedian.",
+    "type": "series"
+  },
+  {
+    "id": "witcher",
+    "title": "The Witcher",
+    "year": 2023,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=szXw-o46F-w",
+    "notes": "A monster hunter grapples with his destiny in a brutal world.",
+    "type": "series"
+  },
+  {
+    "id": "witcher",
+    "title": "The Witcher",
+    "year": 2023,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=szXw-o46F-w",
+    "notes": "A monster hunter grapples with his destiny in a brutal world.",
+    "type": "series"
+  },
+  {
+    "id": "goodwill",
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "rating": 8.3,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=PaZVjZEFkRs",
+    "notes": "A brilliant but troubled janitor confronts his past.",
+    "type": "movie"
+  },
+  {
+    "id": "deadpoet",
+    "title": "Dead Poets Society",
+    "year": 1989,
+    "rating": 8.1,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1542204165-1b0a0f9f5c6f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=wrNisXoJt4A",
+    "notes": "Carpe Diem. A powerful story about an unconventional teacher.",
+    "type": "movie"
+  },
+  {
+    "id": "eternal",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "rating": 8.3,
+    "genres": [
+      "Sci-Fi",
+      "Romance",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=07-QBgZG3M8",
+    "notes": "A beautiful, heartbreaking exploration of memory and love.",
+    "type": "movie"
+  },
+  {
+    "id": "snatch",
+    "title": "Snatch",
+    "year": 2000,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=9Cq3nL4E-pE",
+    "notes": "Guy Ritchie's fast-paced, witty ensemble crime film.",
+    "type": "movie"
+  },
+  {
+    "id": "lock",
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "year": 1998,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2r15zC1w1kY",
+    "notes": "A tangled web of debt and criminals in London.",
+    "type": "movie"
+  },
+  {
+    "id": "nocturnal",
+    "title": "Nocturnal Animals",
+    "year": 2016,
+    "rating": 7.5,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=iwN4Q6_T-yU",
+    "notes": "A dark, stylish, and layered psychological thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "mother",
+    "title": "Mother!",
+    "year": 2017,
+    "rating": 6.6,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=XpICoc6eANM",
+    "notes": "A polarizing, allegorical horror film from Darren Aronofsky.",
+    "type": "movie"
+  },
+  {
+    "id": "callme",
+    "title": "Call Me By Your Name",
+    "year": 2017,
+    "rating": 7.9,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Z9AYmJ3KAXQ",
+    "notes": "A beautiful, tender story of first love in the Italian countryside.",
+    "type": "movie"
+  },
+  {
+    "id": "oncein",
+    "title": "Once Upon a Time in Hollywood",
+    "year": 2019,
+    "rating": 7.6,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1594908906591-b3b425b035f8?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ELeMaP8MmD8",
+    "notes": "Tarantino's nostalgic love letter to 1969 Los Angeles.",
+    "type": "movie"
+  },
+  {
+    "id": "knives",
+    "title": "Knives Out",
+    "year": 2019,
+    "rating": 7.9,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=qGqiG3y1_34",
+    "notes": "A witty, stylish, and highly entertaining modern whodunit.",
+    "type": "movie"
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7d_jQyzt-S0",
+    "notes": "Intense drama about a ruthless music instructor and his student.",
+    "type": "movie"
+  },
+  {
+    "id": "moon",
+    "title": "Moon",
+    "year": 2009,
+    "rating": 7.8,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=twuF-M6vCj0",
+    "notes": "A quiet, smart, and deeply atmospheric sci-fi film.",
+    "type": "movie"
+  },
+  {
+    "id": "children",
+    "title": "Children of Men",
+    "year": 2006,
+    "rating": 7.9,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2VT2apoX90o",
+    "notes": "A dystopian thriller with incredible single-shot action sequences.",
+    "type": "movie"
+  },
+  {
+    "id": "getout",
+    "title": "Get Out",
+    "year": 2017,
+    "rating": 7.7,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=DzfpyARX6CM",
+    "notes": "A sharp, satirical horror film that tackles social issues.",
+    "type": "movie"
+  },
+  {
+    "id": "us",
+    "title": "Us",
+    "year": 2019,
+    "rating": 6.8,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hNCmb-4oXuk",
+    "notes": "A family is terrorized by their own doppelgängers.",
+    "type": "movie"
+  },
+  {
+    "id": "parasite",
+    "title": "Parasite",
+    "year": 2019,
+    "rating": 8.5,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Black Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1599304386708-31627d3122c6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=5xHwT6S3c08",
+    "notes": "A masterful, Oscar-winning examination of class conflict.",
+    "type": "movie"
+  },
+  {
+    "id": "memories",
+    "title": "Memories of Murder",
+    "year": 2003,
+    "rating": 8.1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=SF0JcT_Fm6g",
+    "notes": "Bong Joon-ho's classic police procedural about an unsolved serial killer case.",
+    "type": "movie"
+  },
+  {
+    "id": "handmaiden",
+    "title": "The Handmaiden",
+    "year": 2016,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=KQ0Kk597mXo",
+    "notes": "A stunning, twisted, and erotic thriller set in Korea under Japanese rule.",
+    "type": "movie"
+  },
+  {
+    "id": "oldboy",
+    "title": "Oldboy",
+    "year": 2003,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2Htg3C_n-kY",
+    "notes": "A brutally unforgettable South Korean revenge thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "ladybird",
+    "title": "Lady Bird",
+    "year": 2017,
+    "rating": 7.4,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=cNi_KA3Fw0Y",
+    "notes": "A warm, witty, and moving coming-of-age story.",
+    "type": "movie"
+  },
+  {
+    "id": "littlew",
+    "title": "Little Women",
+    "year": 2019,
+    "rating": 7.8,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1542204165-1b0a0f9f5c6f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=AST2-4db4ic",
+    "notes": "Greta Gerwig's vibrant adaptation of the classic novel.",
+    "type": "movie"
+  },
+  {
+    "id": "spiderman",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "rating": 8.4,
+    "genres": [
+      "Animation",
+      "Action",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1606112219348-204d7d8b94ee?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=g4HfYftu3hY",
+    "notes": "A dazzling, visually inventive, and funny take on the superhero genre.",
+    "type": "movie"
+  },
+  {
+    "id": "ratatouille",
+    "title": "Ratatouille",
+    "year": 2007,
+    "rating": 8.1,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "poster": "https://images.unsplash.com/photo-1619864205517-567a113f309a?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=NgsQ8mVk8Jc",
+    "notes": "A delightful tale of a rat who dreams of being a chef.",
+    "type": "movie"
+  },
+  {
+    "id": "inglourious",
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "rating": 8.3,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=KliQ0L97JkQ",
+    "notes": "Tarantino's re-imagining of WWII history.",
+    "type": "movie"
+  },
+  {
+    "id": "donotlook",
+    "title": "Don't Look Up",
+    "year": 2021,
+    "rating": 7.2,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=RbIxYm3mZCA",
+    "notes": "A sharp, star-studded satire on political and media response to disaster.",
+    "type": "movie"
+  },
+  {
+    "id": "revenant",
+    "title": "The Revenant",
+    "year": 2015,
+    "rating": 8.0,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=LoebZZ8K5N0",
+    "notes": "A stunning, brutal survival and revenge epic.",
+    "type": "movie"
+  },
+  {
+    "id": "oldman",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "rating": 8.1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=38A8zQ-82M8",
+    "notes": "The Coen Brothers' stark, violent neo-Western.",
+    "type": "movie"
+  },
+  {
+    "id": "kingsspeech",
+    "title": "The King's Speech",
+    "year": 2010,
+    "rating": 8.0,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "poster": "https://images.unsplash.com/photo-1611605698315-6a18ed1a5c7c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=nfD-o8hK-Kk",
+    "notes": "The story of King George VI overcoming his stammer.",
+    "type": "movie"
+  },
+  {
+    "id": "room",
+    "title": "Room",
+    "year": 2015,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=E_Ci-pQzEEY",
+    "notes": "A deeply moving and powerful story of a mother and son held captive.",
+    "type": "movie"
+  },
+  {
+    "id": "manche",
+    "title": "Manchester by the Sea",
+    "year": 2016,
+    "rating": 7.8,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=gsNlR7qT1C4",
+    "notes": "A devastatingly emotional film about grief and responsibility.",
+    "type": "movie"
+  },
+  {
+    "id": "birdman",
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "year": 2014,
+    "rating": 7.7,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uJfLoE6hJ_g",
+    "notes": "A technically masterful and satirical look at an actor's ego.",
+    "type": "movie"
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7d_jQyzt-S0",
+    "notes": "Intense drama about a ruthless music instructor and his student.",
+    "type": "movie"
+  },
+  {
+    "id": "arrival",
+    "title": "Arrival",
+    "year": 2016,
+    "rating": 7.9,
+    "genres": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7W8F0eN62lY",
+    "notes": "A compelling film about language, communication, and time.",
+    "type": "movie"
+  },
+  {
+    "id": "sicario",
+    "title": "Sicario",
+    "year": 2015,
+    "rating": 7.6,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sR0SDT2tdeg",
+    "notes": "A tense and morally complex drug war thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "patriot",
+    "title": "The Patriot",
+    "year": 2000,
+    "rating": 7.2,
+    "genres": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uK7YmB45y64",
+    "notes": "Mel Gibson's epic American Revolutionary War story.",
+    "type": "movie"
+  },
+  {
+    "id": "kingsman",
+    "title": "Kingsman: The Secret Service",
+    "year": 2014,
+    "rating": 7.7,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kl8F-8rERtI",
+    "notes": "A stylish, over-the-top spy action comedy.",
+    "type": "movie"
+  },
+  {
+    "id": "oldboy",
+    "title": "Oldboy",
+    "year": 2003,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2Htg3C_n-kY",
+    "notes": "A brutally unforgettable South Korean revenge thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "train",
+    "title": "Train to Busan",
+    "year": 2016,
+    "rating": 7.6,
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=pyG5n4qM-mY",
+    "notes": "A high-octane South Korean zombie outbreak film on a train.",
+    "type": "movie"
+  },
+  {
+    "id": "madmax",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hEJnMDfC-0w",
+    "notes": "A relentless, breathtaking post-apocalyptic action spectacle.",
+    "type": "movie"
+  },
+  {
+    "id": "edge",
+    "title": "Edge of Tomorrow",
+    "year": 2014,
+    "rating": 7.9,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=vw61gCe2oqI",
+    "notes": "A smart and exciting sci-fi action film with a time-loop premise.",
+    "type": "movie"
+  },
+  {
+    "id": "goneb",
+    "title": "Gone Baby Gone",
+    "year": 2007,
+    "rating": 7.6,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=F0S2y2f6fI4",
+    "notes": "A grim, morally challenging detective story set in Boston.",
+    "type": "movie"
+  },
+  {
+    "id": "nightcrawler",
+    "title": "Nightcrawler",
+    "year": 2014,
+    "rating": 7.9,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=gJ0Ew6p_FPs",
+    "notes": "A sharp, chilling satire on sensationalist journalism.",
+    "type": "movie"
+  },
+  {
+    "id": "donnie",
+    "title": "Donnie Darko",
+    "year": 2001,
+    "rating": 8.0,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=bzFvjK5E7O4",
+    "notes": "A cult sci-fi classic with a complex narrative.",
+    "type": "movie"
+  },
+  {
+    "id": "shining",
+    "title": "The Shining",
+    "year": 1980,
+    "rating": 8.4,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=5Cb3dP5-Bq0",
+    "notes": "Stanley Kubrick's psychological horror masterpiece.",
+    "type": "movie"
+  },
+  {
+    "id": "rocky",
+    "title": "Rocky",
+    "year": 1976,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Sport"
+    ],
+    "poster": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=I_Jv0-4rP4k",
+    "notes": "The ultimate underdog story.",
+    "type": "movie"
+  },
+  {
+    "id": "apocalypse",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ikvdc0z8X50",
+    "notes": "A psychedelic and harrowing journey into the heart of darkness.",
+    "type": "movie"
+  },
+  {
+    "id": "amelie",
+    "title": "Amélie",
+    "year": 2001,
+    "rating": 8.3,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=HUECWi5pX7o",
+    "notes": "A whimsical, charming French film.",
+    "type": "movie"
+  },
+  {
+    "id": "montypython",
+    "title": "Monty Python and the Holy Grail",
+    "year": 1975,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=LG1PlkM0v8k",
+    "notes": "A hilarious and anarchic take on the Arthurian legend.",
+    "type": "movie"
+  },
+  {
+    "id": "hotfuzz",
+    "title": "Hot Fuzz",
+    "year": 2007,
+    "rating": 7.8,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ayG0_1wH94o",
+    "notes": "A fast-paced, witty action-comedy from Edgar Wright.",
+    "type": "movie"
+  },
+  {
+    "id": "zodiac",
+    "title": "Zodiac",
+    "year": 2007,
+    "rating": 7.7,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=yNChbE9W1sY",
+    "notes": "A detailed, atmospheric thriller about the search for the Zodiac Killer.",
+    "type": "movie"
+  },
+  {
+    "id": "brooklyn",
+    "title": "Brooklyn Nine-Nine",
+    "year": 2021,
+    "rating": 8.4,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sEOuJ4Nxw5M",
+    "notes": "A cheerful and heartwarming workplace sitcom set in a police precinct.",
+    "type": "series"
+  },
+  {
+    "id": "goodplace",
+    "title": "The Good Place",
+    "year": 2020,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Philosophy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Mf5oRkK4q0I",
+    "notes": "A smart, funny, and surprisingly profound show about what it means to be good.",
+    "type": "series"
+  },
+  {
+    "id": "lastofus",
+    "title": "The Last of Us",
+    "year": 2023,
+    "rating": 8.8,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uGr-L5g0oQo",
+    "notes": "A highly-rated post-apocalyptic drama based on the video game.",
+    "type": "series"
+  },
+  {
+    "id": "throne",
+    "title": "House of the Dragon",
+    "year": 2024,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Dot_K_v6Q4c",
+    "notes": "A captivating prequel to Game of Thrones, focusing on the Targaryens.",
+    "type": "series"
+  },
+  {
+    "id": "white",
+    "title": "The White Lotus",
+    "year": 2024,
+    "rating": 8.0,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kY0yF6t8d5o",
+    "notes": "A sharp social satire set at a luxury resort.",
+    "type": "series"
+  },
+  {
+    "id": "giri",
+    "title": "Giri / Haji",
+    "year": 2019,
+    "rating": 8.1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=l_tH3M88b48",
+    "notes": "A stylish, bilingual thriller about a Tokyo detective in London.",
+    "type": "series"
+  },
+  {
+    "id": "mrsmaisel",
+    "title": "The Marvelous Mrs. Maisel",
+    "year": 2023,
+    "rating": 8.7,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=fOmwkTrW4OQ",
+    "notes": "A fast-talking, vibrant show about a 1950s housewife turned stand-up comedian.",
+    "type": "series"
+  },
+  {
+    "id": "witcher",
+    "title": "The Witcher",
+    "year": 2023,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=szXw-o46F-w",
+    "notes": "A monster hunter grapples with his destiny in a brutal world.",
+    "type": "series"
+  },
+  {
+    "id": "seinf",
+    "title": "Seinfeld",
+    "year": 1998,
+    "rating": 8.9,
+    "genres": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "poster": "https://images.unsplash.com/photo-1599818817730-a29285098b69?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ow4tI6t0yWw",
+    "notes": "The show about nothing.",
+    "type": "series"
+  },
+  {
+    "id": "friends",
+    "title": "Friends",
+    "year": 2004,
+    "rating": 8.5,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1582236357304-c36b6f00222f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hExu1tC-P0I",
+    "notes": "Six friends navigating life in New York City.",
+    "type": "series"
+  },
+  {
+    "id": "office",
+    "title": "The Office (US)",
+    "year": 2013,
+    "rating": 9.0,
+    "genres": [
+      "Comedy",
+      "Mockumentary"
+    ],
+    "poster": "https://images.unsplash.com/photo-1546410531-4e7822d561a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=yW6M4c56eT8",
+    "notes": "Hilarity in a mundane paper company.",
+    "type": "series"
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://images.unsplash.com/photo-1533088275535-430349b14800?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7d_jQyzt-S0",
+    "notes": "Intense drama about a ruthless music instructor and his student.",
+    "type": "movie"
+  },
+  {
+    "id": "arrival",
+    "title": "Arrival",
+    "year": 2016,
+    "rating": 7.9,
+    "genres": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=7W8F0eN62lY",
+    "notes": "A compelling film about language, communication, and time.",
+    "type": "movie"
+  },
+  {
+    "id": "sicario",
+    "title": "Sicario",
+    "year": 2015,
+    "rating": 7.6,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sR0SDT2tdeg",
+    "notes": "A tense and morally complex drug war thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "patriot",
+    "title": "The Patriot",
+    "year": 2000,
+    "rating": 7.2,
+    "genres": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uK7YmB45y64",
+    "notes": "Mel Gibson's epic American Revolutionary War story.",
+    "type": "movie"
+  },
+  {
+    "id": "kingsman",
+    "title": "Kingsman: The Secret Service",
+    "year": 2014,
+    "rating": 7.7,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kl8F-8rERtI",
+    "notes": "A stylish, over-the-top spy action comedy.",
+    "type": "movie"
+  },
+  {
+    "id": "oldboy",
+    "title": "Oldboy",
+    "year": 2003,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1581905764498-df8f9f37c9f9?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=2Htg3C_n-kY",
+    "notes": "A brutally unforgettable South Korean revenge thriller.",
+    "type": "movie"
+  },
+  {
+    "id": "train",
+    "title": "Train to Busan",
+    "year": 2016,
+    "rating": 7.6,
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=pyG5n4qM-mY",
+    "notes": "A high-octane South Korean zombie outbreak film on a train.",
+    "type": "movie"
+  },
+  {
+    "id": "madmax",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=hEJnMDfC-0w",
+    "notes": "A relentless, breathtaking post-apocalyptic action spectacle.",
+    "type": "movie"
+  },
+  {
+    "id": "edge",
+    "title": "Edge of Tomorrow",
+    "year": 2014,
+    "rating": 7.9,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=vw61gCe2oqI",
+    "notes": "A smart and exciting sci-fi action film with a time-loop premise.",
+    "type": "movie"
+  },
+  {
+    "id": "goneb",
+    "title": "Gone Baby Gone",
+    "year": 2007,
+    "rating": 7.6,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=F0S2y2f6fI4",
+    "notes": "A grim, morally challenging detective story set in Boston.",
+    "type": "movie"
+  },
+  {
+    "id": "nightcrawler",
+    "title": "Nightcrawler",
+    "year": 2014,
+    "rating": 7.9,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=gJ0Ew6p_FPs",
+    "notes": "A sharp, chilling satire on sensationalist journalism.",
+    "type": "movie"
+  },
+  {
+    "id": "donnie",
+    "title": "Donnie Darko",
+    "year": 2001,
+    "rating": 8.0,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1547371077-94d3a042e128?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=bzFvjK5E7O4",
+    "notes": "A cult sci-fi classic with a complex narrative.",
+    "type": "movie"
+  },
+  {
+    "id": "shining",
+    "title": "The Shining",
+    "year": 1980,
+    "rating": 8.4,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "poster": "https://images.unsplash.com/photo-1574577265912-f7c8f2b2c3a3?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=5Cb3dP5-Bq0",
+    "notes": "Stanley Kubrick's psychological horror masterpiece.",
+    "type": "movie"
+  },
+  {
+    "id": "rocky",
+    "title": "Rocky",
+    "year": 1976,
+    "rating": 8.1,
+    "genres": [
+      "Drama",
+      "Sport"
+    ],
+    "poster": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=I_Jv0-4rP4k",
+    "notes": "The ultimate underdog story.",
+    "type": "movie"
+  },
+  {
+    "id": "apocalypse",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "rating": 8.5,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Ikvdc0z8X50",
+    "notes": "A psychedelic and harrowing journey into the heart of darkness.",
+    "type": "movie"
+  },
+  {
+    "id": "amelie",
+    "title": "Amélie",
+    "year": 2001,
+    "rating": 8.3,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://images.unsplash.com/photo-1534003460670-36a83693245c?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=HUECWi5pX7o",
+    "notes": "A whimsical, charming French film.",
+    "type": "movie"
+  },
+  {
+    "id": "montypython",
+    "title": "Monty Python and the Holy Grail",
+    "year": 1975,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=LG1PlkM0v8k",
+    "notes": "A hilarious and anarchic take on the Arthurian legend.",
+    "type": "movie"
+  },
+  {
+    "id": "hotfuzz",
+    "title": "Hot Fuzz",
+    "year": 2007,
+    "rating": 7.8,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1559622214-7e3f4f58c4d6?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=ayG0_1wH94o",
+    "notes": "A fast-paced, witty action-comedy from Edgar Wright.",
+    "type": "movie"
+  },
+  {
+    "id": "zodiac",
+    "title": "Zodiac",
+    "year": 2007,
+    "rating": 7.7,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://images.unsplash.com/photo-1558985110-388147d956a0?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=yNChbE9W1sY",
+    "notes": "A detailed, atmospheric thriller about the search for the Zodiac Killer.",
+    "type": "movie"
+  },
+  {
+    "id": "brooklyn",
+    "title": "Brooklyn Nine-Nine",
+    "year": 2021,
+    "rating": 8.4,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=sEOuJ4Nxw5M",
+    "notes": "A cheerful and heartwarming workplace sitcom set in a police precinct.",
+    "type": "series"
+  },
+  {
+    "id": "goodplace",
+    "title": "The Good Place",
+    "year": 2020,
+    "rating": 8.2,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Philosophy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Mf5oRkK4q0I",
+    "notes": "A smart, funny, and surprisingly profound show about what it means to be good.",
+    "type": "series"
+  },
+  {
+    "id": "lastofus",
+    "title": "The Last of Us",
+    "year": 2023,
+    "rating": 8.8,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=uGr-L5g0oQo",
+    "notes": "A highly-rated post-apocalyptic drama based on the video game.",
+    "type": "series"
+  },
+  {
+    "id": "throne",
+    "title": "House of the Dragon",
+    "year": 2024,
+    "rating": 8.4,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=Dot_K_v6Q4c",
+    "notes": "A captivating prequel to Game of Thrones, focusing on the Targaryens.",
+    "type": "series"
+  },
+  {
+    "id": "white",
+    "title": "The White Lotus",
+    "year": 2024,
+    "rating": 8.0,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=kY0yF6t8d5o",
+    "notes": "A sharp social satire set at a luxury resort.",
+    "type": "series"
+  },
+  {
+    "id": "giri",
+    "title": "Giri / Haji",
+    "year": 2019,
+    "rating": 8.1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://images.unsplash.com/photo-1627885132227-d04b6c310c14?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=l_tH3M88b48",
+    "notes": "A stylish, bilingual thriller about a Tokyo detective in London.",
+    "type": "series"
+  },
+  {
+    "id": "mrsmaisel",
+    "title": "The Marvelous Mrs. Maisel",
+    "year": 2023,
+    "rating": 8.7,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=fOmwkTrW4OQ",
+    "notes": "A fast-talking, vibrant show about a 1950s housewife turned stand-up comedian.",
+    "type": "series"
+  },
+  {
+    "id": "witcher",
+    "title": "The Witcher",
+    "year": 2023,
+    "rating": 8.1,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://images.unsplash.com/photo-1435527173128-983b87201b13?auto=format&fit=crop&w=600&q=60",
+    "trailer": "https://www.youtube.com/watch?v=szXw-o46F-w",
+    "notes": "A monster hunter grapples with his destiny in a brutal world.",
+    "type": "series"
+  }
+]

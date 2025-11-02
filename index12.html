@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movies & Series I Loved — Darshan's Picks</title>
+  <style>
+    :root {
+      --bg: #0f1724;
+      --card: #0b1220;
+      --muted: #9aa6b2;
+      --accent: #ff6b6b;
+      --glass: rgba(255,255,255,0.04);
+      --poster-bg: #071018;
+      --maxw: 1100px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #08101a 0%, #071219 100%);
+      color: #e6eef6;
+      display: flex;
+      justify-content: center;
+      padding: 36px 18px;
+    }
+    .wrap {
+      width: 100%;
+      max-width: var(--maxw);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), #ffb86b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #061018;
+      font-size: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    p.lead {
+      margin: 2px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin: 18px 0;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    .search {
+      flex: 1 1 300px;
+    }
+    input[type=search] {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.04);
+      background: var(--card);
+      color: inherit;
+    }
+    /* Suggest Random Button Style */
+    #suggestRandom {
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #061018;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      min-width: 150px;
+      transition: background 0.2s ease;
+      user-select: none;
+    }
+    #suggestRandom:hover {
+      background: #ff4b4b;
+    }
+    .filter-wrap {
+      position: relative;
+      min-width: 230px;
+    }
+    .filter-btn {
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: var(--glass);
+      color: inherit;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 210px;
+      user-select: none;
+      white-space: nowrap;
+    }
+    .filter-btn:hover {
+      background: rgba(255,255,255,0.08);
+    }
+    .filter-menu {
+      position: absolute;
+      top: 110%;
+      right: 0;
+      min-width: 230px;
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 10px;
+      display: none;
+      flex-direction: column;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+      z-index: 10;
+      max-height: 280px;
+      overflow-y: auto;
+      padding: 8px 0;
+    }
+    .filter-menu.open {
+      display: flex;
+    }
+    .filter-item {
+      padding: 8px 16px;
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+    .filter-item:hover {
+      background: rgba(255,255,255,0.06);
+      color: #fff;
+    }
+    .filter-item input[type=checkbox] {
+      cursor: pointer;
+      transform: scale(1.1);
+      margin: 0;
+    }
+    .genre-section {
+      margin-bottom: 14px;
+    }
+    .genre-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .genre-header h3 {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .clear-genres-btn {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.2s;
+    }
+    .clear-genres-btn:hover {
+      background: rgba(255,255,255,0.05);
+      color: #fff;
+    }
+    .taglist {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      color: white;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.04);
+      cursor: pointer;
+      user-select: none;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      position: relative;
+    }
+    .tag:hover {
+      background: rgba(255,255,255,0.05);
+    }
+    /* Hide checkbox visually but keep it functional */
+    .tag input[type=checkbox] {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    .tag.active {
+      background: linear-gradient(90deg, var(--accent), #ffaa6b);
+      color: #061018;
+      border: none;
+    }
+    .ad {
+      width: 100%;
+      height: 90px;
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      margin: 18px 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px 12px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.03);
+      display: flex;
+      flex-direction: column;
+      height: 470px;
+      box-sizing: border-box;
+    }
+    .poster-wrapper {
+      width: 100%;
+      height: 300px;
+      background: var(--poster-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-shrink: 0;
+    }
+    .poster {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .title {
+      font-weight: 700;
+      margin: 0 0 4px;
+      font-size: 18px;
+      line-height: 1.2;
+      flex-shrink: 0;
+    }
+    .meta {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+      flex-grow: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .classification {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .small {
+      font-size: 13px;
+      color: var(--muted);
+      min-width: 40px;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .btn-group {
+      display: flex;
+      gap: 8px;
+      background: var(--glass);
+      border: 1px solid rgba(255,255,255,0.11);
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: auto;
+      transition: box-shadow 0.2s, border-color 0.2s;
+      align-items: center;
+    }
+    .btn-group:hover {
+      border-color: var(--accent);
+      box-shadow: 0 3px 18px rgba(255,107,107,0.09);
+    }
+    .btn {
+      flex: 1;
+      height: 36px;
+      border-radius: 8px;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      transition: background 0.2s, color 0.18s;
+      font-weight: 700;
+      text-align: center;
+      user-select: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 8px;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, var(--accent), #ffaa6b);
+      color: #061018;
+      border: none;
+    }
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(2,6,12,0.85);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      overflow-y: auto;
+      z-index: 1000;
+    }
+    .modal.open {
+      display: flex;
+    }
+    .modal-card {
+      width: 100%;
+      max-width: 900px;
+      background: #071019;
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid rgba(255,255,255,0.03);
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .modal-grid {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 12px;
+    }
+    .video-container {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .modal-poster {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    .modal-poster.hidden {
+      display: none;
+    }
+    .close {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 28px;
+      line-height: 1;
+      padding: 0;
+      transition: color 0.2s;
+    }
+    .close:hover {
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @media (max-width: 720px) {
+      .modal-grid {
+        grid-template-columns: 1fr;
+      }
+      .modal-poster, .video-container {
+        height: 240px;
+      }
+    }
+    .rating {
+      display: inline-block;
+      padding: 6px 8px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.03);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">DB</div>
+      <div>
+        <h1>Darshan's Picks: Movies & Series</h1>
+        <p class="lead">A curated list of movie & series I watched & loved — quick filters, details and ad slots ready for monetization.</p>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="search">
+        <input id="search" type="search" placeholder="Search movies or series..." />
+      </div>
+
+      <!-- Suggest Random button -->
+      <button id="suggestRandom" title="Suggest a random unseen movie or series">Suggest Random</button>
+
+      <div class="filter-wrap">
+        <button id="filterBtn" class="filter-btn" aria-expanded="false" aria-controls="filterMenu">
+          Filter
+        </button>
+        <div id="filterMenu" class="filter-menu" role="menu" tabindex="-1" aria-hidden="true">
+          <label class="filter-item"><input type="checkbox" data-filter="movies" checked> Movies</label>
+          <label class="filter-item"><input type="checkbox" data-filter="series" checked> Series</label>
+          <label class="filter-item"><input type="checkbox" data-filter="rating"> Rating Descending</label>
+          <label class="filter-item"><input type="checkbox" data-filter="year"> Year Descending</label>
+          <label class="filter-item"><input type="checkbox" data-filter="seen" checked> Seen</label>
+          <label class="filter-item"><input type="checkbox" data-filter="unseen" checked> Unseen</label>
+        </div>
+      </div>
+    </section>
+
+    <div class="genre-section">
+      <div class="genre-header">
+        <h3>Filter by Genres (select multiple)</h3>
+        <button id="clearGenres" class="clear-genres-btn">Clear All</button>
+      </div>
+      <div class="taglist" id="genres"></div>
+    </div>
+
+    <div class="ad" id="ad-top">Ad Space — replace with your AdSense / ad network snippet</div>
+
+    <main class="grid" id="grid"></main>
+
+    <div class="ad" id="ad-bottom">Ad Space — great for inline ads or affiliate banners</div>
+
+    <footer>
+      <div>Made with ❤️ — Add your movies/series in the JS arrays at the top of the script.</div>
+      <div class="small">Tip: Replace ad placeholders with your network code when ready.</div>
+    </footer>
+  </div>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <strong id="modal-title">Title</strong>
+        <button id="modal-close" class="close" aria-label="Close modal">×</button>
+      </div>
+      <div class="modal-grid" style="margin-top:12px">
+        <div id="poster-video-container">
+          <img id="modal-poster" class="modal-poster" src="" alt="Poster image" />
+          <div id="video-container" class="video-container" style="display:none;">
+            <iframe id="trailer-iframe" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+            <span id="modal-year" class="small"></span>
+            <span id="modal-rating" class="rating"></span>
+          </div>
+          <p id="modal-desc" style="color:var(--muted)"></p>
+          <p style="margin-top:10px"><strong>Why I liked it</strong></p>
+          <p id="modal-notes" style="color:var(--muted)"></p>
+          <div style="margin-top:14px" class="btn-group">
+            <button id="play-trailer" class="btn" type="button" style="display:none;">Play Trailer</button>
+            <button id="toggle-fav" class="btn" type="button">Toggle Seen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  let ITEMS = []; // Will hold the loaded JSON data
+
+  const state = {
+    selectedGenres: new Set(),
+    query: '',
+    categories: { movies: true, series: true },
+    sortRatingDesc: false,
+    sortYearDesc: false,
+    filterSeen: true,
+    filterUnseen: true
+  };
+
+  const SEEN_STORAGE_KEY = 'darshan_seen_combined';
+
+  const filterBtn = document.getElementById('filterBtn');
+  const filterMenu = document.getElementById('filterMenu');
+  const filterItems = filterMenu.querySelectorAll('input[type=checkbox]');
+  const genresEl = document.getElementById('genres');
+  const grid = document.getElementById('grid');
+  const search = document.getElementById('search');
+  const modal = document.getElementById('modal');
+  const modalTitle = document.getElementById('modal-title');
+  const modalPoster = document.getElementById('modal-poster');
+  const modalDesc = document.getElementById('modal-desc');
+  const modalNotes = document.getElementById('modal-notes');
+  const modalYear = document.getElementById('modal-year');
+  const modalRating = document.getElementById('modal-rating');
+  const playTrailer = document.getElementById('play-trailer');
+  const toggleFav = document.getElementById('toggle-fav');
+  const modalClose = document.getElementById('modal-close');
+  const suggestRandomBtn = document.getElementById('suggestRandom');
+  const clearGenresBtn = document.getElementById('clearGenres');
+  const videoContainer = document.getElementById('video-container');
+  const trailerIframe = document.getElementById('trailer-iframe');
+
+  let currentTrailerUrl = null;
+
+  filterBtn.onclick = () => {
+    const isOpen = filterMenu.classList.toggle('open');
+    filterBtn.setAttribute('aria-expanded', isOpen);
+    filterMenu.setAttribute('aria-hidden', !isOpen);
+  };
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.filter-wrap')) {
+      filterMenu.classList.remove('open');
+      filterBtn.setAttribute('aria-expanded', false);
+      filterMenu.setAttribute('aria-hidden', true);
+    }
+  });
+
+  filterItems.forEach(input => {
+    if (input.dataset.filter === 'movies' || input.dataset.filter === 'series') input.checked = true;
+    if (input.dataset.filter === 'seen' || input.dataset.filter === 'unseen') input.checked = true;
+    input.addEventListener('change', () => {
+      const filter = input.dataset.filter;
+      if (filter === 'movies') {
+        state.categories.movies = input.checked;
+      } else if (filter === 'series') {
+        state.categories.series = input.checked;
+      } else if (filter === 'rating') {
+        state.sortRatingDesc = input.checked;
+      } else if (filter === 'year') {
+        state.sortYearDesc = input.checked;
+      } else if (filter === 'seen') {
+        state.filterSeen = input.checked;
+      } else if (filter === 'unseen') {
+        state.filterUnseen = input.checked;
+      }
+      render();
+    });
+  });
+
+  clearGenresBtn.addEventListener('click', () => {
+    state.selectedGenres.clear();
+    renderGenres();
+    render();
+  });
+
+  function getCurrentList() {
+    let out = [];
+    if (state.categories.movies) out = out.concat(ITEMS.filter(i => i.type === 'movie'));
+    if (state.categories.series) out = out.concat(ITEMS.filter(i => i.type === 'series'));
+    return out;
+  }
+
+  function getSeenCombined() {
+    return new Set(JSON.parse(localStorage.getItem(SEEN_STORAGE_KEY) || '[]'));
+  }
+
+  function saveSeen(seen) {
+    localStorage.setItem(SEEN_STORAGE_KEY, JSON.stringify(Array.from(seen)));
+  }
+
+  function uniqueGenres() {
+    const g = new Set();
+    getCurrentList().forEach(m => {
+      (m.genres || []).forEach(x => g.add(x));
+    });
+    return Array.from(g).sort();
+  }
+
+  function renderGenres() {
+    const arr = uniqueGenres();
+    genresEl.innerHTML = '';
+    
+    arr.forEach(g => {
+      const label = document.createElement('label');
+      label.className = 'tag' + (state.selectedGenres.has(g) ? ' active' : '');
+      
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.checked = state.selectedGenres.has(g);
+      checkbox.addEventListener('change', (e) => {
+        e.stopPropagation();
+        if (checkbox.checked) {
+          state.selectedGenres.add(g);
+        } else {
+          state.selectedGenres.delete(g);
+        }
+        renderGenres();
+        render();
+      });
+      
+      const text = document.createTextNode(g);
+      
+      label.appendChild(checkbox);
+      label.appendChild(text);
+      
+      label.onclick = (e) => {
+        if (e.target !== checkbox) {
+          checkbox.checked = !checkbox.checked;
+          if (checkbox.checked) {
+            state.selectedGenres.add(g);
+          } else {
+            state.selectedGenres.delete(g);
+          }
+          renderGenres();
+          render();
+        }
+      };
+      
+      genresEl.appendChild(label);
+    });
+  }
+
+  function filterMovies() {
+    const seen = getSeenCombined();
+    let out = getCurrentList().slice();
+    
+    if (state.selectedGenres.size > 0) {
+      out = out.filter(m => {
+        return m.genres.some(genre => state.selectedGenres.has(genre));
+      });
+    }
+    
+    if (state.query) {
+      const q = state.query.toLowerCase();
+      out = out.filter(m => m.title.toLowerCase().includes(q) || (m.notes || '').toLowerCase().includes(q));
+    }
+    
+    if (!state.filterSeen || !state.filterUnseen) {
+      out = out.filter(m => {
+        const hasSeen = seen.has(m.id);
+        if (!state.filterSeen && hasSeen) return false;
+        if (!state.filterUnseen && !hasSeen) return false;
+        return true;
+      });
+    }
+    
+    if (state.sortRatingDesc) {
+      out.sort((a,b) => b.rating - a.rating);
+    }
+    if (state.sortYearDesc) {
+      out.sort((a,b) => b.year - a.year);
+    }
+    return out;
+  }
+
+  function render() {
+    const items = filterMovies();
+    const seen = getSeenCombined();
+    grid.innerHTML = '';
+    if (items.length === 0) {
+      grid.innerHTML = '<div style="grid-column:1/-1;color:var(--muted);padding:40px;border-radius:8px;background:rgba(255,255,255,0.01);text-align:center">No items found</div>';
+      return;
+    }
+    items.forEach(m => {
+      const c = document.createElement('div');
+      c.className = 'card';
+      c.innerHTML = `
+        <div class="poster-wrapper">
+          <img class="poster" src="${m.poster}" alt="${m.title} poster" />
+        </div>
+        <div class="title">${m.title}</div>
+        <div class="meta">
+          <span>${m.genres.join(' • ')}</span>
+        </div>
+        <div class="meta">
+          <span class="classification">${m.type === 'movie' ? 'Movie' : 'Series'}</span>
+          <span style="float:right" class="small">${m.year}</span>
+          <div class="small">${(m.rating || '-') } ⭐</div>
+        </div>
+        <div class="btn-group">
+          <button class="btn" data-id="${m.id}" data-action="open" type="button">Details</button>
+          <button class="btn" data-id="${m.id}" data-action="fav" type="button">${seen.has(m.id) ? 'Seen' : 'Mark Seen'}</button>
+        </div>`;
+      grid.appendChild(c);
+
+      const img = c.querySelector('.poster');
+      img.onerror = () => {
+        img.style.display = 'none';
+      };
+    });
+  }
+
+  grid.addEventListener('click', e => {
+    const btn = e.target.closest('button');
+    if (!btn) return;
+    const id = btn.dataset.id;
+    const action = btn.dataset.action;
+    const movie = getCurrentList().find(x => x.id === id);
+    if (!movie) return;
+    const seen = getSeenCombined();
+    if (action === 'open') openModal(movie, seen);
+    if (action === 'fav') {
+      if (seen.has(id)) seen.delete(id);
+      else seen.add(id);
+      saveSeen(seen);
+      render();
+    }
+  });
+
+  suggestRandomBtn.onclick = () => {
+    const seen = getSeenCombined();
+    let candidates = getCurrentList().filter(m => !seen.has(m.id));
+    
+    if (state.selectedGenres.size > 0) {
+      candidates = candidates.filter(m => 
+        m.genres.some(genre => state.selectedGenres.has(genre))
+      );
+    }
+    
+    if (candidates.length === 0) {
+      alert('No unseen items available matching current filters.');
+      return;
+    }
+    const randIndex = Math.floor(Math.random() * candidates.length);
+    openModal(candidates[randIndex], seen);
+  };
+
+  // Helper function to convert YouTube URL to embed format
+  function getYouTubeEmbedUrl(url) {
+    if (!url) return null;
+    
+    // If already an embed URL
+    if (url.includes('youtube.com/embed/')) {
+      return url.includes('?') ? url + '&autoplay=1&mute=1' : url + '?autoplay=1&mute=1';
+    }
+    
+    // Extract video ID from various YouTube URL formats
+    let videoId = null;
+    
+    if (url.includes('youtube.com/watch?v=')) {
+      videoId = url.split('v=')[1]?.split('&')[0];
+    } else if (url.includes('youtu.be/')) {
+      videoId = url.split('youtu.be/')[1]?.split('?')[0];
+    }
+    
+    if (videoId) {
+      return `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
+    }
+    
+    return null;
+  }
+
+  // Function to load trailer and replace poster
+  function loadTrailer() {
+    if (currentTrailerUrl) {
+      const embedUrl = getYouTubeEmbedUrl(currentTrailerUrl);
+      if (embedUrl) {
+        trailerIframe.src = embedUrl;
+        modalPoster.style.display = 'none';
+        videoContainer.style.display = 'block';
+        playTrailer.style.display = 'none';
+      }
+    }
+  }
+
+  function openModal(m, seen) {
+    modalTitle.textContent = m.title;
+    modalPoster.src = m.poster;
+    modalPoster.style.display = 'block';
+    videoContainer.style.display = 'none';
+    trailerIframe.src = '';
+    modalDesc.textContent = (m.genres || []).join(' • ');
+    modalNotes.textContent = m.notes || '';
+    modalYear.textContent = m.year || '';
+    modalRating.textContent = typeof m.rating === 'number' ? m.rating : '-';
+    
+    currentTrailerUrl = m.trailer || null;
+    
+    // Show play trailer button if trailer exists
+    if (currentTrailerUrl) {
+      playTrailer.style.display = 'flex';
+      // Auto-play trailer immediately when modal opens
+      setTimeout(() => loadTrailer(), 300);
+    } else {
+      playTrailer.style.display = 'none';
+    }
+    
+    toggleFav.textContent = seen.has(m.id) ? 'Mark Unseen' : 'Mark Seen';
+    toggleFav.onclick = () => {
+      if (seen.has(m.id)) seen.delete(m.id);
+      else seen.add(m.id);
+      saveSeen(seen);
+      render();
+      modal.classList.remove('open');
+      // Stop video when closing
+      trailerIframe.src = '';
+      modalPoster.style.display = 'block';
+      videoContainer.style.display = 'none';
+    };
+    
+    modal.classList.add('open');
+  }
+
+  // Play trailer button click handler
+  playTrailer.addEventListener('click', loadTrailer);
+
+  modalClose.addEventListener('click', () => {
+    modal.classList.remove('open');
+    trailerIframe.src = '';
+    modalPoster.style.display = 'block';
+    videoContainer.style.display = 'none';
+  });
+
+  modal.addEventListener('click', e => {
+    if (e.target === modal) {
+      modal.classList.remove('open');
+      trailerIframe.src = '';
+      modalPoster.style.display = 'block';
+      videoContainer.style.display = 'none';
+    }
+  });
+
+  search.addEventListener('input', e => {
+    state.query = e.target.value;
+    render();
+  });
+
+  // Load data from JSON then render and setup everything
+  async function initialize() {
+    try {
+      const response = await fetch('darshan_movies.json');
+      if (!response.ok) {
+        throw new Error('Failed to load darshan_movies.json');
+      }
+      ITEMS = await response.json();
+      renderGenres();
+      render();
+    } catch (error) {
+      console.error('Error loading movies data:', error);
+      grid.innerHTML = `<div style="grid-column:1/-1;color:var(--muted);padding:40px;border-radius:8px;background:rgba(255,255,255,0.01);text-align:center">Error loading movie and series data.</div>`;
+    }
+  }
+
+  initialize();
+</script>
+</body>
+</html>
