@@ -598,7 +598,7 @@
       background: var(--bg-glass);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
-      padding: 12px;
+      padding: 0;
       border-radius: var(--border-radius);
       border: 1px solid rgba(255, 255, 255, 0.1);
       display: flex;
@@ -636,14 +636,15 @@
       width: 100%;
       height: 240px;
       background: var(--bg-primary);
-      border-radius: var(--border-radius-sm);
+      border-radius: 0;
       overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 12px;
+      margin: 0;
+      padding: 0;
       position: relative;
-      box-shadow: var(--shadow-md);
+      box-shadow: none;
     }
     
     .poster-wrapper::after {
@@ -660,6 +661,8 @@
       object-fit: cover;
       display: block;
       transition: transform 0.3s ease;
+      margin: 0;
+      padding: 0;
     }
     
     .card:hover .poster {
@@ -668,7 +671,8 @@
     
     .title {
       font-weight: 700;
-      margin: 0 0 6px;
+      margin: 0;
+      padding: 12px 12px 6px 12px;
       font-size: 15px;
       line-height: 1.3;
       color: var(--text-primary);
@@ -677,7 +681,8 @@
     .meta {
       font-size: 11px;
       color: var(--text-secondary);
-      margin-bottom: 6px;
+      margin: 0;
+      padding: 0 12px 6px 12px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -721,9 +726,10 @@
       gap: 8px;
       background: var(--bg-glass);
       border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: var(--border-radius-sm);
-      padding: 10px;
-      margin-top: auto;
+      border-radius: 0;
+      padding: 10px 12px;
+      margin: auto 0 0 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
       transition: all 0.3s ease;
     }
     
@@ -838,21 +844,26 @@
       display: none;
     }
 
+    .video-container, .video-container iframe {
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
+      background: #000;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
     .video-container {
+      position: relative;
       width: 100%;
       height: 240px;
-      background: #000;
       overflow: hidden;
-      position: relative;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .video-container iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
       margin: 0;
       padding: 0;
     }
@@ -1047,7 +1058,6 @@
 
       .card {
         min-height: 460px;
-        padding: 14px;
       }
 
       .title {
@@ -1118,7 +1128,6 @@
 
       .card {
         min-height: 500px;
-        padding: 16px;
       }
 
       .title {
